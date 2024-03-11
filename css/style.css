@@ -43,3 +43,31 @@
   --size-scale-scale-11: 2.75rem;
   --size-scale-scale-12: 3rem;
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.cabecera{
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-morado-100);
+  color: var(--color-morado-300);
+}
+.cabecera_img1{
+  display: flex;
+  width: var(--size-scale-scale-5);
+  height: var(--size-scale-scale-5);
+  align-self: center;
+  padding-right: var(--size-scale-scale-4);
+}
+.cabecera_img2{
+  display: flex;
+  width: var(--size-scale-scale-5);
+  height: var(--size-scale-scale-5);
+  align-self: center;
+  padding-left: var(--size-scale-scale-4);
+}
