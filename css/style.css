@@ -120,3 +120,20 @@ body{
 .info section h3 {
   color: var(--color-morado-100);
 }
+.cuenta{
+  grid-row: 3;
+  grid-column: 3 / 6;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-morado-300);
+  border-radius: var(--size-scale-scale-5);
+}
+.cuenta_titulo{
+  color: var(--color-morado-50);
+}
+.contador{
+  color: var(--color-morado-50);
+}
+.frase{
+  color: var(--color-morado-100);
+}
