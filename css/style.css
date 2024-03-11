@@ -1,16 +1,9 @@
 /* *********************************** */
 @import url(normalize.min.css);
-@import url(reset.css);
 
 /* *********************************** */
 /* *** ESTILOS GENERALES *** */
 /* *********************************** */
-
-/* Tipografía */
-@font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
-}
 :root {
   /* Mode 1 */
   /* colors */
@@ -49,7 +42,7 @@ body{
   padding: 0;
   display: flex;
   width: 100vw;
-  height: 100vh;
+  
 }
 .cabecera{
   display: flex;
@@ -136,4 +129,36 @@ body{
 }
 .frase{
   color: var(--color-morado-100);
+}
+.formulario{
+  grid-row: 3;
+  grid-column: 8 / 10;
+  text-align: center;
+  background-color: var(--color-morado-300);
+  border-radius: var(--size-scale-scale-5);
+}
+.formulario_texto{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.formulario_titulo{
+  grid-column: 1 / 3 ;
+  align-self: center;
+  color: var(--color-morado-100);
+}
+.formulario_icon{
+  align-self: center;
+}
+.formulario_campos{
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-scale-scale-3);
+}
+.formulario_campos input{
+  margin-bottom: var(--size-scale-scale-2);
+  border-radius: var(--size-scale-scale-4);
+}
+.formulario_campos .genero{
+  margin-bottom: var(--size-scale-scale-2);
+  border-radius: var(--size-scale-scale-4);    
 }
