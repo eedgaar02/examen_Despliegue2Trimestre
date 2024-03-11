@@ -88,10 +88,35 @@ body{
   padding: var(--size-scale-scale-5);
   align-items: center;
 }
-
 .que_es_img {
   width: 20vw;
 }
 .que_es_texto{
   padding: var(--size-scale-scale-6);
+}
+.info {
+  grid-column: 3 / 10;
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--color-morado-300);
+  border-radius: var(--size-scale-scale-5);
+}
+.info_titulo{
+  grid-row: 1;
+  grid-column: 1 / 3;
+  color: var(--color-morado-100);
+}
+.info section{
+  padding-left: var(--size-scale-scale-1);
+}
+.info h4{
+  color: var(--color-morado-100);
+}
+.info section h3 {
+  color: var(--color-morado-100);
 }
