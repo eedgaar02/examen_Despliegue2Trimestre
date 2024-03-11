@@ -71,3 +71,27 @@ body{
   align-self: center;
   padding-left: var(--size-scale-scale-4);
 }
+.cuerpo{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 0.5fr);
+  gap: var(--size-grid-grid-gap);
+  padding-left: var(--size-grid-grid-padding-horizontal);
+  padding-right: var(--size-grid-grid-padding-horizontal);
+  background-color: var(--color-morado-50);
+}
+.que_es {
+  grid-column: 3 / 10;
+  grid-row: 1 ;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: var(--size-scale-scale-5);
+  align-items: center;
+}
+
+.que_es_img {
+  width: 20vw;
+}
+.que_es_texto{
+  padding: var(--size-scale-scale-6);
+}
